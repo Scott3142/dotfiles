@@ -1,0 +1,13 @@
+- defaults:
+    link:
+        create: true
+        relink: true
+
+- clean: ['~']
+
+- link:
+    terminator.conf: ~/.config/terminator/config
+    nvim.conf: ~/.config/nvim/init.vim
+    i3.conf: ~/.config/i3/config
+    i3status.conf: ~/.config/i3/i3status.conf
+    omf.conf: ~/.local/share/omf/init.fish
