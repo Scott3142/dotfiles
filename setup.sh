@@ -14,3 +14,5 @@ sudo apt install fish
 sudo chsh -s /usr/bin/fish
 
 sudo apt install terminator
+
+sudo cp lock /bin/
