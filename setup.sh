@@ -7,7 +7,7 @@ sudo apt -y upgrade
 sudo apt -y dist-upgrade
 sudo apt -y autoremove
 
-sudo apt install i3
+sudo apt install i3 i3status
 sudo apt install neovim
 sudo apt install fish
 
