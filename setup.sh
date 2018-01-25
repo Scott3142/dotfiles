@@ -13,11 +13,18 @@ pip install py3status
 sudo apt -y install i3 i3status i3lock
 sudo apt -y install neovim
 sudo apt -y install fish
+sudo apt -y install curl
 
 sudo apt -y install terminator
 
 sudo cp lock /bin/
 
 sudo apt -y install spotify-client
+
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+git clone https://github.com/tomasr/molokai.git
+cp -r plugged molokai/colors ~/.config/nvim/
 
 chsh -s /usr/bin/fish
