@@ -9,14 +9,15 @@ sudo apt -y upgrade
 sudo apt -y dist-upgrade
 sudo apt -y autoremove
 
+pip install py3status
 sudo apt -y install i3 i3status i3lock
 sudo apt -y install neovim
 sudo apt -y install fish
-
-sudo chsh -s /usr/bin/fish
 
 sudo apt -y install terminator
 
 sudo cp lock /bin/
 
 sudo apt -y install spotify-client
+
+chsh -s /usr/bin/fish
