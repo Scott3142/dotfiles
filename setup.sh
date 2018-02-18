@@ -9,7 +9,7 @@ sudo apt -y upgrade
 sudo apt -y dist-upgrade
 sudo apt -y autoremove
 
-pip install py3status
+sudo pip install py3status
 sudo apt -y install i3 i3status i3lock
 sudo apt -y install neovim
 sudo apt -y install fish
