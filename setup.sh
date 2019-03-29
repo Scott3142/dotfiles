@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #sudo add-apt-repository ppa:gnome-terminator
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 0DF731E45CE24F27EEEB1450EFDC8610341D9410
-echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+#sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 0DF731E45CE24F27EEEB1450EFDC8610341D9410
+#echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
 
 sudo apt -y update
 sudo apt -y upgrade
@@ -19,7 +19,7 @@ sudo apt -y install terminator
 
 sudo cp lock /bin/
 
-sudo apt -y install spotify-client
+#sudo apt -y install spotify-client
 
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
