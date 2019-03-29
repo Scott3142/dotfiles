@@ -179,7 +179,7 @@ bindsym $mod+c exec google-chrome --profile-directory=Default
 bindsym $mod+b exec google-chrome --profile-directory=Profile\ 2
 
 # Launch tor
-bindsym $mod+t exec /home/scott/Documents/tor/start-tor-browser.desktop
+bindsym $mod+b exec /home/scott/Documents/tor/start-tor-browser.desktop
 
 # Lock
 bindsym $mod+Ctrl+l exec lock
@@ -194,7 +194,7 @@ exec --no-startup-id nm-applet
 bindsym $mod+a exec atom
 
 #wallpaper
-exec --no-startup-id feh --bg-scale ~/pics/wp2.jpg
+exec --no-startup-id feh --bg-scale ~/Pictures/wp2.jpg
 
 exec --no-startup-id synclient MaxTapTime=0
 
