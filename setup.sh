@@ -29,9 +29,15 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 git clone https://github.com/tomasr/molokai.git
 cp -r plugged molokai/colors ~/.config/nvim/
 
-sudo apt-get install atom
+#sudo apt-get install atom
+sudo snap install atom --classic
 
 chsh -s /usr/bin/fish
+
+git submodule update --recursive --remote
+
+git config --global user.email "smorgan@bridgend.ac.uk"
+git config --global user.name "Scott Morgan"
 
 chmod +x install
 chmod +x dotbot/bin/dotbot
