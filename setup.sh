@@ -36,9 +36,6 @@ chsh -s /usr/bin/fish
 
 git submodule update --recursive --remote
 
-git config --global user.email "smorgan@bridgend.ac.uk"
-git config --global user.name "Scott Morgan"
-
 chmod +x install
 chmod +x dotbot/bin/dotbot
 
