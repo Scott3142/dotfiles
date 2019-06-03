@@ -16,6 +16,7 @@ sudo apt -y install git
 sudo apt -y install neovim
 sudo apt -y install fish
 sudo apt -y install curl
+sudo apt -y install deluge
 
 sudo apt -y install terminator
 
@@ -39,3 +40,5 @@ git submodule update --recursive --remote
 chmod +x install
 chmod +x dotbot/bin/dotbot
 
+rm -ri /home/scott/Desktop/ /home/scott/Documents/ /home/scott/Music/ /home/scott/Pictures/ /home/scott/Public/ /home/scott/Templates/ /home/scott/Videos/ /home/scott/Downloads/
+mkdir -p /home/scott/dl /home/scott/code/repos
