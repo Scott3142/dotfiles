@@ -13,6 +13,9 @@ sudo apt -y install feh
 sudo apt -y install py3status
 sudo apt -y install i3 i3status i3lock
 sudo apt -y install git
+
+cp git.conf /home/scott/.gitconfig
+
 sudo apt -y install neovim
 sudo apt -y install fish
 sudo apt -y install curl

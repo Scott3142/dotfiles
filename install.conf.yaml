@@ -7,7 +7,6 @@
 
 - link:
     ~/.config/terminator/config: terminator.conf
-    ~/.gitconfig: git.conf
     ~/.config/nvim/init.vim: nvim.conf
     ~/.config/fish/config.fish: fish.conf
     ~/.config/i3/config: i3.conf
