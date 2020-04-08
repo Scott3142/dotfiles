@@ -14,3 +14,5 @@ followed by:
 bash setup.sh
 ./install
 ```
+
+You'll also need to manually redirect Chrome to download to `~/dl`
