@@ -3,6 +3,14 @@
 You probably want to run:
 
 ```
+sudo apt update
+sudo apt install git
+git clone https://github.com/Scott3142/dotfiles.git
+```
+
+followed by:
+
+```
 bash setup.sh
 ./install
 ```
