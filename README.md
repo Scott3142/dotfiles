@@ -18,3 +18,12 @@ bash setup.sh
 ```
 
 You'll also need to manually redirect Chrome to download to `~/dl`
+
+If you are using a machine which doesn't have SSH key access to github, you'll need to change the file `.gitmodules` and include the `https` link to `dotbot` instead.
+
+If you do this, you'll have to run 
+
+```
+git submodule sync 
+git submodule update --recursive --remote
+```
