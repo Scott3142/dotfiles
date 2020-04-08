@@ -49,3 +49,5 @@ mkdir -p /home/scott/dl /home/scott/code/repos
 
 curl -L https://get.oh-my.fish | fish
 omf install gitstatus
+
+rm /home/scott/.local/share/omf/init.fish
