@@ -7,7 +7,7 @@
 #echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
 
 cp updatepc /home/scott/
-
+chmod +x /home/scott/updatepc
 bash /home/scott/updatepc
 
 sudo apt -y install feh
