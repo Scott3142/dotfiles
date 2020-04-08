@@ -11,6 +11,8 @@ git clone https://github.com/Scott3142/dotfiles.git
 followed by:
 
 ```
+mv dotfiles .dotfiles
+cd .dotfiles
 bash setup.sh
 ./install
 ```
