@@ -1,11 +1,11 @@
 # dotfiles
 
-You probably want to run:
+You probably want to run (after adding SSH keys to Github):
 
 ```
 sudo apt update
 sudo apt install git
-git clone https://github.com/Scott3142/dotfiles.git
+git clone git@github.com:Scott3142/dotfiles.git
 ```
 
 followed by:
